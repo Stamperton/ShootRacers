@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 490240}
   - component: {fileID: 3305496}
   - component: {fileID: 2337540}
+  - component: {fileID: 6548069977620208942}
+  - component: {fileID: 7001820741034288574}
+  - component: {fileID: 4892813509894007817}
   m_Layer: 0
   m_Name: SR_Env_Raised_Track_Straight_Blue
   m_TagString: Untagged
@@ -79,3 +82,42 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6548069977620208942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 22.28548, y: 1.23985, z: 9.999976}
+  m_Center: {x: -0.0000038146973, y: -0.62626016, z: 4.999988}
+--- !u!65 &7001820741034288574
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1391525, y: 2.7927065, z: 9.999976}
+  m_Center: {x: 10.57316, y: 0.15016806, z: 4.999988}
+--- !u!65 &4892813509894007817
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1391544, y: 2.7927065, z: 9.999976}
+  m_Center: {x: -10.573167, y: 0.15016806, z: 4.999988}
